@@ -11,7 +11,6 @@ import Error from "../../components/Error/Error";
 import CardPropos from "../../components/CardPropos/CardPropos";
 import Popup from "../../components/Popup/Popup";
 import CreatePopup from "../../components/CreatePopup/CreatePopup";
-import { set } from "mongoose";
 
 function Tender() {
    const { user } = useContext(AuthContext)
