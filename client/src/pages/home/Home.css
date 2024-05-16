@@ -1,0 +1,50 @@
+.hHead {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   gap: 50px;
+}
+.hSort {
+   display: flex;
+   align-items: center;
+   /* width: 10%; */
+}
+.hSort .title{
+   margin-right: 10px;
+}
+.hSort .trigger {
+   background-color: #fff;
+   color: hsl(0, 0%, 40%);
+   border: transparent;
+   border-radius: 7px;
+   padding: 2px 12px;
+   width: 95px;
+}
+
+.hSearch {
+   display: flex;
+   align-items: center;
+   width: 50%;
+}
+.hSearch input{
+   background-color: #fff;
+   color: hsl(0, 0%, 40%);
+   border: transparent;
+   border-radius: 7px;
+   padding: 13px;
+   width: 100%;
+   caret-color: hsl(0, 0%, 40%);
+}
+.hSearch input:focus {
+   outline: none;
+}
+.hSearch button {
+   width: 140px;
+   padding: 10px;
+   margin-left: 10px;
+}
+.sort {
+   margin: 0 10px;
+}

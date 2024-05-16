@@ -1,0 +1,54 @@
+.uInfo {
+   background-color: hsl(0, 0%, 86%);
+   border-radius: 10px;
+   min-height: 100px;
+   flex: 1;
+   padding: 20px;
+}
+.uInfo h1 {
+   font-size: 1.5rem;
+   margin: 0;
+}
+.uInfo hr {
+   margin-bottom: 25px;
+   border: none;
+   border-top: 2px solid hsl(0, 0%, 70%);
+}
+.uInfo section {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 20px;
+   transition: all 0.3s;
+   animation: fadeIn 0.3s ease-in;
+}
+.uInfo button {
+   margin-top: 25px;
+   width: 30%;
+   align-self: center;
+}
+.uInfo nav {
+   display: flex;
+   gap: 20px;
+}
+.uInfo nav span {
+   font-weight: 600;
+   font-size: 1.4rem;
+   padding: 3px 10px;
+   transition: color 0.3s ease;
+   user-select: none;
+   cursor: pointer;
+}
+.uInfo nav span:hover {
+   color: hsl(0, 0%, 30%);
+}
+.uInfo nav span.active {
+   background-color: hsl(0, 0%, 84%);
+   border: 2px solid hsl(0, 0%, 70%);
+   border-bottom: none;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+}
+.uInfo nav span.active:hover {
+   color: hsl(0, 0%, 0%);
+}

@@ -1,0 +1,11 @@
+footer {
+   background-color: hsl(218, 33%, 21%);
+   color: white;
+   padding: 25px 0;
+   width: 100%;
+   text-align: center;
+}
+footer p {
+   color: hsl(218, 33%, 90%);
+   margin: 4px;
+}

@@ -1,0 +1,50 @@
+.uContent {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   padding: 30px 20px;
+}
+
+.uBlob {
+   background-color: hsl(0, 0%, 86%);
+   border-radius: 10px;
+   height: 500px;
+   width: 23%;
+
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+}
+.uBlob .uAvatar {
+   width: calc(100% - 70px);
+   margin: 20px auto;
+}
+.uAvatar {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+.uAvatar .uName {
+   font-size: 1.5rem;
+}
+.uAvatar div.image {
+   position: relative;
+}
+.uAvatar div.image .onHover {
+   position: absolute;
+   top: -1%;
+   left: -1%;
+   height: 102%;
+   width: 102%;
+   border-radius: 50%;
+}
+.uAvatar .logo {
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+}
+.uBlob p {
+   margin: 5px 20px;
+}

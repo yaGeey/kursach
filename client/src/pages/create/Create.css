@@ -1,0 +1,63 @@
+hr.hrCr {
+   margin: 13px 0;
+   border: none;
+   border-top: 2px solid hsl(0, 0%, 70%);
+}
+
+.uInfo {
+   position: relative;
+}
+.uInfo input, textarea {
+   padding: 7px 10px;
+}
+.uInfo input {
+   width: 30%;
+}
+.uInfo textarea {
+   width: 90%;
+   resize: none;
+   background-color: hsl(0, 0%, 95%);
+   color:#242424;
+   border: 2px solid hsl(0, 0%, 80%);
+   border-radius: 5px;
+}
+.uInfo form.Create {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 13px;
+}
+
+form.Create div.logo {
+   width: 100%;
+}
+form.Create label {
+   font-size: 0.95rem;
+}
+form.Create input[type="file"] {
+   background-color: transparent;
+   border: none;
+}
+form.Create div.dateEnd {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+form.Create #dateEnd {
+   padding: 4px;
+   width: 100px;
+}
+
+.loading {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   backdrop-filter: blur(2px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.3s;
+   animation: fadeIn 0.3s ease-in;
+}
